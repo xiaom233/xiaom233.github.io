@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Personal Page"
 title_separator          : "-"
-name                     : &name "Zheyuan LI"
+name                     : &name "李哲远 Zheyuan LI"
 description              : &description "personal description"
 url                      : https://xiaom233.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
