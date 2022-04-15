@@ -25,4 +25,4 @@ Publications
 
 Selected Awards
 ======
-1 Champions - NTIRE 2022 Challenges on Efficient Super-Resolution Challenge
+The champion - NTIRE 2022 Challenges on Efficient Super-Resolution Challenge
