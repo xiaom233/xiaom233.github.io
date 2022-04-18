@@ -1,6 +1,6 @@
 ---
 title: "Participate in Shenzhen University Town Games"
-excerpt: "Fail to get good prize :(, but have fun :)<br/><img src='/images/table_tennis_champion3.png'>"
+excerpt: "Fail to get good prize :(, but have fun :)<br/><img src='/images/table_tennis_champion3.jpg'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Champion of Table Tennis in SIAT"
-excerpt: "Personal champion of Table Tennis<br/><img src='/images/table_tennis_champion.png'>"
+excerpt: "Personal champion of Table Tennis<br/><img src='/images/table_tennis_champion.jpg'>"
 collection: portfolio
 ---
 
