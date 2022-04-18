@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Champion of Table Tennis in SIAT"
+excerpt: "Personal champion of Table Tennis<br/><img src='/images/table_tennis_champion.png'>"
 collection: portfolio
 ---
 
