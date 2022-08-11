@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-PDF can be downloaded [here](/files/ZheyuanLi_Resume_.pdf)  
+Downloaded [my resume](/files/ZheyuanLi_Resume_.pdf) for more details.
 
 Education
 ======
