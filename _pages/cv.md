@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-PDF can be downloaded [here](/files/ZheyuanLi_Resume_.pdf)
+PDF can be downloaded [here](/files/ZheyuanLi_Resume_.pdf)  
+
 Education
 ======
 * B.S. in Software Engineering, Northwestern Polytechnical University, 2018-2022  
