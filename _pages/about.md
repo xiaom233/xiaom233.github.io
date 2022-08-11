@@ -14,15 +14,19 @@ zheyuanli884886@gmail.com
 
 Biography
 ======
-I currently work as a research intern in Multimedia Laboratory at SIAT-CAS.
+**Looking for 2023 PhD position**  
+I currently work as a research intern in **[XPixel Group](http://xpixel.group/index.html) in Multimedia Laboratory@SIAT-CAS**.
 I received a Bachelor degree in Software Engineering at 
 [Northwestern Polytechnical University](https://en.nwpu.edu.cn/).
 I am supervised by [Prof. Yu Qiao](http://mmlab.siat.ac.cn/yuqiao)
-and [Prof. Chao Dong](http://xpixel.group/2010/01/20/chaodong.html).  
+and [Prof. Chao Dong](http://xpixel.group/2010/01/20/chaodong.html).
 I also work closely with Ph.D. candidate [Xiangyu Chen](https://chxy95.github.io/).  
+
 My research interests focus on **Deep Learning** and **Computer Vision**, especially in:  
 + **Image Super-Resolution** : Try to design a high-performance Image Restoration or Enhancement models to 
   process degraded images.
+  
+
 
 
 News
