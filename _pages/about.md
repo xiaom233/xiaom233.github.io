@@ -15,7 +15,7 @@ zheyuanli884886@gmail.com
 Biography
 ======
 **Looking for 2023 PhD position**  
-I currently work as a research intern in **[XPixel Group](http://xpixel.group/index.html) in Multimedia Laboratory@SIAT-CAS**.
+I currently work as a research assistant in **[XPixel Group](http://xpixel.group/index.html) in Multimedia Laboratory@SIAT-CAS**.
 I received a Bachelor degree in Software Engineering at 
 [Northwestern Polytechnical University](https://en.nwpu.edu.cn/).
 I am supervised by [Prof. Yu Qiao](http://mmlab.siat.ac.cn/yuqiao)
@@ -23,7 +23,7 @@ and [Prof. Chao Dong](http://xpixel.group/2010/01/20/chaodong.html).
 I also work closely with Ph.D. candidate [Xiangyu Chen](https://chxy95.github.io/).  
 
 My research interests focus on **Deep Learning** and **Computer Vision**, especially in:  
-+ **Image Super-Resolution** : Try to design a high-performance Image Restoration or Enhancement models to 
++ **Image Super-Resolution** : Try to design a high-performance Image Restoration or Enhancement methods to 
   process degraded images.
   
 
@@ -47,6 +47,10 @@ Publications
 In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop, pp. 833-843. 2022.  
 [[Code]](https://github.com/xiaom233/BSRN) 
 [[PDF]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Li_Blueprint_Separable_Residual_Network_for_Efficient_Image_Super-Resolution_CVPRW_2022_paper.pdf)
+
+**Zheyuan Li**, Xiangyu Chen, Yu Qiao, Chao Dong et al
+"Research of Single Image Super Resolution Based on Attention Mecha." (Chinese)
+Journal of Integration Technology, 2022
 
 Selected Awards
 ======
