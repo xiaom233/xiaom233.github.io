@@ -9,8 +9,8 @@ redirect_from:
 ---
 Contact Info
 ======
-(Main) zy.li3@siat.ac.cn  
-zheyuanli884886@gmail.com  
+(Main)zheyuanli884886@gmail.com     
+zy.li3@siat.ac.cn
 
 Biography
 ======
