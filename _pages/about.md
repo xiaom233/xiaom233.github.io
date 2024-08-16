@@ -19,10 +19,11 @@ Currently, I am a Ph.D. student supervised by [Prof. ZHOU Jiantao](https://www.f
 I worked as a research assistant supervised [Prof. DONG Chao ](http://xpixel.group/2010/01/20/chaodong.html) in **[XPixel Group](http://xpixel.group/index.html) in Multimedia Laboratory@SIAT-CAS** (2022-2024).
 I received a Bachelor degree in Software Engineering at 
 [Northwestern Polytechnical University](https://en.nwpu.edu.cn/).
-I also work closely with [Dr. GU Jinjin](https://www.jasongt.com/) Ph.D. candidate [CHEN Xiangyu](https://chxy95.github.io/).  
+I also work closely with [Dr. GU Jinjin](https://www.jasongt.com/) and
+Ph.D. candidate [CHEN Xiangyu](https://chxy95.github.io/).  
 
 My research interests focus on **Deep Learning** and **Computer Vision**, especially in:  
-+ **Image Super-Resolution** : Try to design a high-performance Image Restoration or Enhancement methods to 
++ **Image Restoration and Enhancement** : To propose high-performance methods to 
   process degraded images.
   
 
