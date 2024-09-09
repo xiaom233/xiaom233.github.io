@@ -38,14 +38,14 @@ Publications
 ======
 Zhiyuan You, Zheyuan Li, Jinjin Gu, Zhenfei Yin, Tianfan Xue, Chao Dong
 "Depicting Beyond Scores: Advancing Image Quality Assessment through Multi-modal Language Models"
-In Proceedings of the IEEE/CVF European Conference on Computer Vision, 2024
+In Proceedings of the European Conference on Computer Vision, 2024
 [[Code]](https://github.com/XPixelGroup/DepictQA)
 [[Paper]](https://arxiv.org/abs/2312.08962)
 
 
 Xiangyu Chen, Zheyuan Li, Yuandong Pu, Yihao Liu, Jiantao Zhou, Yu Qiao, Chao Dong
 "A Comparative Study of Image Restoration Networks for General Backbone Network Design"
-In Proceedings of the IEEE/CVF European Conference on Computer Vision, 2024
+In Proceedings of the European Conference on Computer Vision, 2024
 [[Code]](https://github.com/Andrew0613/X-Restormer)
 [[Paper]](https://arxiv.org/abs/2310.11881)
 
@@ -62,7 +62,7 @@ Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognitio
 
 Lin Zhou, Haoming Cai, Jinjin Gu, **Zheyuan Li**, Yingqi Liu, Xiangyu Chen, Yu Qiao, Chao Dong
 "Efficient Image Super-Resolution using Vast-Receptive-Field Attention."
-In Proceedings of the IEEE/CVF European Conference on Computer Vision Workshop, 2022
+In Proceedings of the European Conference on Computer Vision Workshop, 2022
 [[Code]](https://github.com/zhoumumu/VapSR) 
 [[Paper]](https://arxiv.org/abs/2210.05960)
 
