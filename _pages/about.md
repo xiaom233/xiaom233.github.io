@@ -36,20 +36,20 @@ News
 
 Publications
 ======
-Zhiyuan You *, **Zheyuan Li** *, Jinjin Gu, Zhenfei Yin, Tianfan Xue, Chao Dong  
+Zhiyuan You\*, **Zheyuan Li**\*, Jinjin Gu, Zhenfei Yin, Tianfan Xue, Chao Dong  
 **"Depicting Beyond Scores: Advancing Image Quality Assessment through Multi-modal Language Models"**
 In Proceedings of the European Conference on Computer Vision, 2024
 [[Code]](https://github.com/XPixelGroup/DepictQA)
 [[Paper]](https://arxiv.org/abs/2312.08962)
 
 
-Xiangyu Chen *, **Zheyuan Li** *, Yuandong Pu*, Yihao Liu, Jiantao Zhou, Yu Qiao, Chao Dong  
+Xiangyu Chen\*, **Zheyuan Li**\*, Yuandong Pu\*, Yihao Liu, Jiantao Zhou, Yu Qiao, Chao Dong  
 **"A Comparative Study of Image Restoration Networks for General Backbone Network Design"**
 In Proceedings of the European Conference on Computer Vision, 2024
 [[Code]](https://github.com/Andrew0613/X-Restormer)
 [[Paper]](https://arxiv.org/abs/2310.11881)
 
-Xiangyu Chen *, **Zheyuan Li** *, Zhengwen Zhang, Jimmy S. Ren, Yihao Liu, Jingwen He, Yu Qiao, Jiantao Zhou, Chao Dong  
+Xiangyu Chen\*, **Zheyuan Li**\*, Zhengwen Zhang, Jimmy S. Ren, Yihao Liu, Jingwen He, Yu Qiao, Jiantao Zhou, Chao Dong  
 **"Towards Efficient SDRTV-to-HDRTV by Learning from Image Formation"**
 [[Code]](https://github.com/xiaom233/HDRTVNet-plus)
 [[Paper]](https://arxiv.org/abs/2309.04084)
