@@ -20,7 +20,7 @@ I worked as a research assistant supervised [Prof. DONG Chao ](http://xpixel.gro
 I received a Bachelor degree in Software Engineering at 
 [Northwestern Polytechnical University](https://en.nwpu.edu.cn/).
 I also work closely with [Dr. GU Jinjin](https://www.jasongt.com/) and
-Ph.D. candidate [CHEN Xiangyu](https://chxy95.github.io/).  
+[Dr. CHEN Xiangyu](https://chxy95.github.io/).  
 
 My research interests focus on **Deep Learning** and **Computer Vision**, especially in:  
 + **Image Restoration and Enhancement**: To propose high-performance methods to 
