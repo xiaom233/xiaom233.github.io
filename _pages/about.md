@@ -55,8 +55,27 @@ In Proceedings of the European Conference on Computer Vision, 2024
 
 Xiangyu Chen\*, **Zheyuan Li**\*, Zhengwen Zhang, Jimmy S. Ren, Yihao Liu, Jingwen He, Yu Qiao, Jiantao Zhou, Chao Dong  
 **"Towards Efficient SDRTV-to-HDRTV by Learning from Image Formation"**
+IEEE Transactions on Multimedia (TMM), 2025
 [[Code]](https://github.com/xiaom233/HDRTVNet-plus)
 [[Paper]](https://arxiv.org/abs/2309.04084)
+
+Zhiyuan You, Jinjin Gu, Xin Cai, **Zheyuan Li**, Kaiwen Zhu, Chao Dong, Tianfan Xue  
+**"Enhancing Descriptive Image Quality Assessment With a Large-Scale Multi-Modal Dataset"**
+IEEE Transactions on Image Processing (TIP), 2025
+[[Project]](https://depictqa.github.io/depictqa-wild/)
+[[Code]](https://github.com/XPixelGroup/DepictQA)
+[[Paper]](https://arxiv.org/abs/2405.18842)
+
+Jinfan Hu, Jinjin Gu, Shiyao Yu, Fanghua Yu, **Zheyuan Li**, Zhiyuan You, Chaochao Lu, Chao Dong  
+**"Interpreting Low-Level Vision Models With Causal Effect Maps"**
+IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025
+[[Code]](https://github.com/J-FHu/CEM)
+[[Paper]](https://arxiv.org/abs/2407.19789)
+
+Fanghua Yu, Jinjin Gu, Jinfan Hu, **Zheyuan Li**, Chao Dong  
+**"UniCon: Unidirectional Information Flow for Effective Control of Large-Scale Diffusion Models"**
+International Conference on Learning Representations (ICLR), 2025
+[[Paper]](https://arxiv.org/abs/2503.17221)
 
 Fanghua Yu, Jinjin Gu, **Zheyuan Li**, Jinfan Hu, Xiangtao Kong, Xintao Wang, Jingwen He, Yu Qiao, Chao Dong  
 **"Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild"**
