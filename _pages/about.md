@@ -23,8 +23,12 @@ I also work closely with [Dr. GU Jinjin](https://www.jasongt.com/) and
 Ph.D. candidate [CHEN Xiangyu](https://chxy95.github.io/).  
 
 My research interests focus on **Deep Learning** and **Computer Vision**, especially in:  
-+ **Image Restoration and Enhancement** : To propose high-performance methods to 
-  process degraded images.
++ **Image Restoration and Enhancement**: To propose high-performance methods to 
+  process degraded images (e.g., SUPIR, X-Restormer).
++ **Vision-Language Models for Image Quality Assessment**: To develop multi-modal 
+  VLM-based methods for descriptive, human-like image quality evaluation.
++ **Diffusion Model Control and Generation**: To enable efficient and precise 
+  control of large-scale generative models.
   
 
 
