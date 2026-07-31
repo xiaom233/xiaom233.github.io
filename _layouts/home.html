@@ -18,6 +18,12 @@ layout: default
       </p>
     </div>
 
+    <div class="profile-rail__links">
+      {% for link in home.profile.links %}
+        <a href="{{ link.url }}"{% unless link.url contains "mailto:" %} target="_blank" rel="noopener noreferrer"{% endunless %}>{{ link.label }}</a>
+      {% endfor %}
+    </div>
+
     <nav class="profile-rail__nav" aria-label="Homepage sections">
       <a href="#cover"><span class="profile-rail__nav-index">·</span><span>Cover</span></a>
       <a href="#research"><span class="profile-rail__nav-index">I</span><span>Research Focus</span></a>
@@ -26,11 +32,6 @@ layout: default
       <a href="#news"><span class="profile-rail__nav-index">IV</span><span>News &amp; Awards</span></a>
     </nav>
 
-    <div class="profile-rail__links">
-      <a href="mailto:{{ site.author.email }}">Email</a>
-      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-      <a href="{{ base_path }}/files/ZheyuanLi.pdf">CV</a>
-    </div>
   </aside>
 
   <main class="report-home__main" id="main">

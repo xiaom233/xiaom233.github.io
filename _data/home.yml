@@ -2,11 +2,18 @@
 # 修改文字时请保留每一行开头的缩进。保存后推送到 GitHub 即可更新网站。
 
 profile:
-  name: "Zheyuan LI"
+  name: "李哲远 Zheyuan LI"
   kicker: "A Research Portfolio"
   role:
     - "Ph.D. student · University of Macau"
     - "Computer Vision & Generative AI"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/xiaom233"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com.sg/citations?user=cYPIz6EAAAAJ&hl=en&oi=ao"
+    - label: "zheyuanli884886@gmail.com"
+      url: "mailto:zheyuanli884886@gmail.com"
 
 hero:
   eyebrow: "Research portfolio · 2026"
@@ -21,7 +28,7 @@ hero:
     supervisor: "Prof. Jiantao Zhou"
     supervisor_url: "https://www.fst.um.edu.mo/personal/jtzhou/"
   collaboration:
-    prefix: "Previously a research assistant in the"
+    prefix: "Also a research assistant in the"
     group: "XPixel Group"
     group_url: "https://xpixel.group/"
     people_prefix: "working with"
@@ -35,7 +42,7 @@ hero:
 
 research:
   kicker: "Chapter I · Research"
-  title: "Research at the intersection of vision, quality, and generation."
+  title: "Research Interests"
   intro: "My work develops capable and efficient visual systems, with an emphasis on understanding how images are restored, evaluated, and generated."
   items:
     - index: "I.1"
@@ -60,13 +67,13 @@ biography:
   title: "Personal Experience"
   lead: "My path combines academic training, collaborative research, and practical work on efficient visual intelligence."
   paragraphs:
-    - "From 2022 to 2024, I worked as a research assistant in the XPixel Group at the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences."
+    - "Since 2022, I have worked as a research assistant in the XPixel Group at the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences."
     - "I received my bachelor's degree in Software Engineering from Northwestern Polytechnical University and collaborate closely with researchers working across image restoration, quality assessment, and generative modeling."
   timeline:
     - period: "2024—"
       title: "Ph.D. in Computer Science"
       place: "University of Macau"
-    - period: "2022—24"
+    - period: "2022—"
       title: "Research Assistant"
       place: "XPixel Group · SIAT, Chinese Academy of Sciences"
     - period: "2018—22"

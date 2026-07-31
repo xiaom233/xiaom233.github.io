@@ -177,20 +177,22 @@ image_alt: "Description of the image"
 
 ## 3. 更新个人资料
 
-### 邮箱、GitHub 和地点
+### 侧栏邮箱、GitHub 和 Google Scholar
 
-编辑 `_config.yml` 中的：
+编辑 `_data/home.yml` 中的 `profile.links`：
 
 ```yaml
-author:
-  name: "李哲远 Zheyuan LI"
-  bio: "Computer Vision Researcher"
-  location: "Macau"
-  email: "your-email@example.com"
-  github: "xiaom233"
+profile:
+  links:
+    - label: "GitHub"
+      url: "https://github.com/xiaom233"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
+    - label: "your-email@example.com"
+      url: "mailto:your-email@example.com"
 ```
 
-`github` 只填写用户名，不要填写完整网址。
+每个 `label` 和 `url` 必须成对保留。新增邮箱时复制最后两行，邮箱链接需以 `mailto:` 开头。侧栏会自动将每个项目显示为独立一行。
 
 ### 更新头像
 
