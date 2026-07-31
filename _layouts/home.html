@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% assign home = site.data.home %}
+
+<div class="report-home">
+  <aside class="report-home__rail" aria-label="Profile and page navigation">
+    <div class="profile-rail__identity">
+      <img class="profile-rail__avatar" src="{{ base_path }}/images/lizheyuan.jpg" alt="Portrait of Zheyuan LI">
+      <p class="profile-rail__kicker">{{ home.profile.kicker }}</p>
+      <p class="profile-rail__name">{{ home.profile.name }}</p>
+      <p class="profile-rail__role">
+        {% for line in home.profile.role %}
+          {{ line }}{% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+      </p>
+    </div>
+
+    <nav class="profile-rail__nav" aria-label="Homepage sections">
+      <a href="#cover"><span class="profile-rail__nav-index">·</span><span>Cover</span></a>
+      <a href="#research"><span class="profile-rail__nav-index">I</span><span>Research Focus</span></a>
+      <a href="#publications"><span class="profile-rail__nav-index">II</span><span>Selected Publications</span></a>
+      <a href="#biography"><span class="profile-rail__nav-index">III</span><span>Biography</span></a>
+      <a href="#news"><span class="profile-rail__nav-index">IV</span><span>News &amp; Awards</span></a>
+    </nav>
+
+    <div class="profile-rail__links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="{{ base_path }}/files/ZheyuanLi.pdf">CV</a>
+    </div>
+  </aside>
+
+  <main class="report-home__main" id="main">
+    <section class="report-hero" id="cover" aria-labelledby="home-title">
+      <div class="report-hero__content">
+        <p class="report-eyebrow">{{ home.hero.eyebrow }}</p>
+        <h1 class="report-hero__title" id="home-title">
+          <span>{{ home.hero.name_primary }}</span>
+          <em>{{ home.hero.name_accent }}</em>
+        </h1>
+        <p class="report-hero__deck">{{ home.hero.deck }}</p>
+        <div class="report-hero__relationships" aria-label="Academic affiliation and collaborators">
+          <p>
+            {{ home.hero.affiliation.prefix }}
+            <a href="{{ home.hero.affiliation.institution_url }}" target="_blank" rel="noopener noreferrer">{{ home.hero.affiliation.institution }}</a>,
+            {{ home.hero.affiliation.supervisor_prefix }}
+            <a href="{{ home.hero.affiliation.supervisor_url }}" target="_blank" rel="noopener noreferrer">{{ home.hero.affiliation.supervisor }}</a>.
+          </p>
+          <p>
+            {{ home.hero.collaboration.prefix }}
+            <a href="{{ home.hero.collaboration.group_url }}" target="_blank" rel="noopener noreferrer">{{ home.hero.collaboration.group }}</a>,
+            {{ home.hero.collaboration.people_prefix }}
+            {% for person in home.hero.collaboration.people %}
+              <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% if forloop.last %}.{% elsif forloop.rindex == 2 %} and {% else %}, {% endif %}
+            {% endfor %}
+          </p>
+        </div>
+        <div class="report-actions">
+          <a class="report-button report-button--primary" href="#publications">{{ home.hero.primary_action }}</a>
+          <a class="report-button" href="{{ base_path }}/files/ZheyuanLi.pdf">{{ home.hero.secondary_action }}</a>
+        </div>
+      </div>
+    </section>
+
+    {{ content }}
+  </main>
+</div>

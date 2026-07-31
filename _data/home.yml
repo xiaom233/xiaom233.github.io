@@ -1,0 +1,88 @@
+# 首页可维护内容
+# 修改文字时请保留每一行开头的缩进。保存后推送到 GitHub 即可更新网站。
+
+profile:
+  name: "Zheyuan LI"
+  kicker: "A Research Portfolio"
+  role:
+    - "Ph.D. student · University of Macau"
+    - "Computer Vision & Generative AI"
+
+hero:
+  eyebrow: "Research portfolio · 2026"
+  name_primary: "Zheyuan"
+  name_accent: "LI"
+  deck: "Advancing image restoration, visual quality understanding, and controllable generative models."
+  affiliation:
+    prefix: "Currently a Ph.D. student at"
+    institution: "University of Macau"
+    institution_url: "https://www.um.edu.mo/"
+    supervisor_prefix: "supervised by"
+    supervisor: "Prof. Jiantao Zhou"
+    supervisor_url: "https://www.fst.um.edu.mo/personal/jtzhou/"
+  collaboration:
+    prefix: "Previously a research assistant in the"
+    group: "XPixel Group"
+    group_url: "https://xpixel.group/"
+    people_prefix: "working with"
+    people:
+      - name: "Prof. Chao Dong"
+        url: "https://xpixel.group/2010/01/20/chaodong.html"
+      - name: "Dr. Xiangyu Chen"
+        url: "https://chxy95.github.io/"
+  primary_action: "Explore selected work"
+  secondary_action: "Download CV"
+
+research:
+  kicker: "Chapter I · Research"
+  title: "Research at the intersection of vision, quality, and generation."
+  intro: "My work develops capable and efficient visual systems, with an emphasis on understanding how images are restored, evaluated, and generated."
+  items:
+    - index: "I.1"
+      title: "Image Restoration & Enhancement"
+      description: "Designing general and efficient models that recover faithful, high-quality images from real-world degradation, from lightweight super-resolution to large-scale restoration."
+    - index: "I.2"
+      title: "Vision-Language Quality Assessment"
+      description: "Moving beyond scalar scores toward descriptive, comparative, and human-aligned reasoning about visual quality with multimodal language models."
+    - index: "I.3"
+      title: "Controllable Generative Models"
+      description: "Building efficient control mechanisms for large diffusion models while studying the information flow that makes precise visual generation possible."
+
+publications:
+  kicker: "Chapter II · Selected Work"
+  title: "Selected Work"
+  intro: "A selection of work spanning image quality assessment, restoration, model interpretation, and controllable generation."
+  visible_count: 6
+  all_button: "View all publications"
+
+biography:
+  kicker: "Chapter III · Biography"
+  title: "Personal Experience"
+  lead: "My path combines academic training, collaborative research, and practical work on efficient visual intelligence."
+  paragraphs:
+    - "From 2022 to 2024, I worked as a research assistant in the XPixel Group at the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences."
+    - "I received my bachelor's degree in Software Engineering from Northwestern Polytechnical University and collaborate closely with researchers working across image restoration, quality assessment, and generative modeling."
+  timeline:
+    - period: "2024—"
+      title: "Ph.D. in Computer Science"
+      place: "University of Macau"
+    - period: "2022—24"
+      title: "Research Assistant"
+      place: "XPixel Group · SIAT, Chinese Academy of Sciences"
+    - period: "2018—22"
+      title: "B.S. in Software Engineering"
+      place: "Northwestern Polytechnical University"
+
+news:
+  kicker: "Chapter IV · Updates"
+  title: "News & recognition."
+  items:
+    - date: "2025"
+      datetime: "2025"
+      text: "New work on descriptive image quality assessment, causal interpretation, and diffusion model control appeared in TIP, TPAMI, and ICLR."
+    - date: "Aug 2024"
+      datetime: "2024-08-07"
+      text: "Started Ph.D. study at the University of Macau."
+    - date: "2022"
+      datetime: "2022"
+      text: "Won the NTIRE Efficient Super-Resolution Challenge model complexity track with BSRN-S."

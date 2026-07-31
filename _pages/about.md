@@ -1,103 +1,99 @@
 ---
+layout: home
 permalink: /
-title: "ABOUT ME"
-excerpt: "ABOUT ME"
-author_profile: true
-redirect_from: 
+title: "Zheyuan LI"
+excerpt: "Computer vision researcher working on image restoration, visual quality understanding, and generative models."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
-Contact Info
-======
-**zheyuanli884886@gmail.com**   
-yc47990@um.edu.mo
-zy.li3@siat.ac.cn
 
-Biography
-======
-Currently, I am a Ph.D. student supervised by [Prof. ZHOU Jiantao](https://www.fst.um.edu.mo/people/jtzhou/) at **University of Macau**.
-I worked as a research assistant supervised [Prof. DONG Chao ](http://xpixel.group/2010/01/20/chaodong.html) of **[XPixel Group](http://xpixel.group/index.html) in Multimedia Laboratory@SIAT-CAS** (2022-2024).
-I received a Bachelor degree in Software Engineering at 
-[Northwestern Polytechnical University](https://en.nwpu.edu.cn/).
-I also work closely with [Dr. GU Jinjin](https://www.jasongt.com/) and
-[Dr. CHEN Xiangyu](https://chxy95.github.io/).  
+{% assign home = site.data.home %}
 
-My research interests focus on **Deep Learning** and **Computer Vision**, especially in:  
-+ **Image Restoration and Enhancement**: To propose high-performance methods to 
-  process degraded images (e.g., SUPIR, X-Restormer).
-+ **Vision-Language Models for Image Quality Assessment**: To develop multi-modal 
-  VLM-based methods for descriptive, human-like image quality evaluation.
-+ **Diffusion Model Control and Generation**: To enable efficient and precise 
-  control of large-scale generative models.
-  
+<section class="report-section" id="research" aria-labelledby="research-title">
+  <header class="report-section__header">
+    <p class="report-section__kicker">{{ home.research.kicker }}</p>
+    <div>
+      <h2 class="report-section__title" id="research-title">{{ home.research.title }}</h2>
+      <p class="report-section__intro">{{ home.research.intro }}</p>
+    </div>
+  </header>
 
+  <div class="research-grid">
+    {% for item in home.research.items %}
+    <article class="research-card">
+      <span class="research-card__index">{{ item.index }}</span>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
+<section class="report-section report-section--paper" id="publications" aria-labelledby="publications-title">
+  <header class="report-section__header">
+    <p class="report-section__kicker">{{ home.publications.kicker }}</p>
+    <div>
+      <h2 class="report-section__title" id="publications-title">{{ home.publications.title }}</h2>
+      <p class="report-section__intro">{{ home.publications.intro }}</p>
+    </div>
+  </header>
 
-News
-======
+  <div class="publication-list">
+    {% assign recent_publications = site.publications | sort: "date" | reverse %}
+    {% assign publication_limit = home.publications.visible_count | default: 6 %}
+    {% for post in recent_publications limit: publication_limit %}
+      {% include publication-card.html post=post %}
+    {% endfor %}
+  </div>
 
-[2024-8-7] I was enrolled at University of Macau.
+  <div class="report-actions">
+    <a class="report-button" href="{{ base_path }}/publications/">{{ home.publications.all_button }}</a>
+  </div>
+</section>
 
-Publications
-======
-Zhiyuan You, Jinjin Gu, Xin Cai, **Zheyuan Li**, Kaiwen Zhu, Chao Dong, Tianfan Xue  
-**"Enhancing Descriptive Image Quality Assessment With a Large-Scale Multi-Modal Dataset"**
-IEEE Transactions on Image Processing (TIP), 2025
-[[Project]](https://depictqa.github.io/depictqa-wild/)
-[[Code]](https://github.com/XPixelGroup/DepictQA)
-[[Paper]](https://arxiv.org/abs/2405.18842)
+<section class="report-section" id="biography" aria-labelledby="biography-title">
+  <header class="report-section__header">
+    <p class="report-section__kicker">{{ home.biography.kicker }}</p>
+    <div>
+      <h2 class="report-section__title" id="biography-title">{{ home.biography.title }}</h2>
+    </div>
+  </header>
 
-Xiangyu Chen\*, **Zheyuan Li**\*, Zhengwen Zhang, Jimmy S. Ren, Yihao Liu, Jingwen He, Yu Qiao, Jiantao Zhou, Chao Dong  
-**"Towards Efficient SDRTV-to-HDRTV by Learning from Image Formation"**
-IEEE Transactions on Multimedia (TMM), 2025
-[[Code]](https://github.com/xiaom233/HDRTVNet-plus)
-[[Paper]](https://arxiv.org/abs/2309.04084)
+  <div class="biography-grid">
+    <p class="biography-grid__lead">{{ home.biography.lead }}</p>
+    <div class="biography-grid__body">
+      {% for paragraph in home.biography.paragraphs %}
+        <p>{{ paragraph }}</p>
+      {% endfor %}
+    </div>
+  </div>
 
-Fanghua Yu, Jinjin Gu, Jinfan Hu, **Zheyuan Li**, Chao Dong  
-**"UniCon: Unidirectional Information Flow for Effective Control of Large-Scale Diffusion Models"**
-International Conference on Learning Representations (ICLR), 2025
-[[Paper]](https://arxiv.org/abs/2503.17221)
+  <ul class="timeline" aria-label="Education and research timeline">
+    {% for item in home.biography.timeline %}
+    <li>
+      <time>{{ item.period }}</time>
+      <div><strong>{{ item.title }}</strong><span>{{ item.place }}</span></div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
-Jinfan Hu, Jinjin Gu, Shiyao Yu, Fanghua Yu, **Zheyuan Li**, Zhiyuan You, Chaochao Lu, Chao Dong  
-**"Interpreting Low-Level Vision Models With Causal Effect Maps"**
-IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025
-[[Code]](https://github.com/J-FHu/CEM)
-[[Paper]](https://arxiv.org/abs/2407.19789)
+<section class="report-section report-section--paper" id="news" aria-labelledby="news-title">
+  <header class="report-section__header">
+    <p class="report-section__kicker">{{ home.news.kicker }}</p>
+    <div>
+      <h2 class="report-section__title" id="news-title">{{ home.news.title }}</h2>
+    </div>
+  </header>
 
-Zhiyuan You\*, **Zheyuan Li**\*, Jinjin Gu, Zhenfei Yin, Tianfan Xue, Chao Dong  
-**"Depicting Beyond Scores: Advancing Image Quality Assessment through Multi-modal Language Models"**
-In Proceedings of the European Conference on Computer Vision, 2024
-[[Code]](https://github.com/XPixelGroup/DepictQA)
-[[Paper]](https://arxiv.org/abs/2312.08962)
-
-Xiangyu Chen\*, **Zheyuan Li**\*, Yuandong Pu\*, Yihao Liu, Jiantao Zhou, Yu Qiao, Chao Dong  
-**"A Comparative Study of Image Restoration Networks for General Backbone Network Design"**
-In Proceedings of the European Conference on Computer Vision, 2024
-[[Code]](https://github.com/Andrew0613/X-Restormer)
-[[Paper]](https://arxiv.org/abs/2310.11881)
-
-Fanghua Yu, Jinjin Gu, **Zheyuan Li**, Jinfan Hu, Xiangtao Kong, Xintao Wang, Jingwen He, Yu Qiao, Chao Dong  
-**"Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild"**
-Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024
-[[Code]](https://github.com/Fanghua-Yu/SUPIR)
-[[Paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Scaling_Up_to_Excellence_Practicing_Model_Scaling_for_Photo-Realistic_Image_CVPR_2024_paper.html)
-
-Lin Zhou, Haoming Cai, Jinjin Gu, **Zheyuan Li**, Yingqi Liu, Xiangyu Chen, Yu Qiao, Chao Dong  
-**"Efficient Image Super-Resolution using Vast-Receptive-Field Attention."**
-In Proceedings of the European Conference on Computer Vision Workshop, 2022
-[[Code]](https://github.com/zhoumumu/VapSR) 
-[[Paper]](https://arxiv.org/abs/2210.05960)
-
-**Zheyuan Li**, Yingqi Liu, Xiangyu Chen, Haoming Cai, Jinjin Gu, Yu Qiao, and Chao Dong.   
-**"Blueprint Separable Residual Network for Efficient Image Super-Resolution."**
-In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop, 2022
-[[Code]](https://github.com/xiaom233/BSRN) 
-[[Paper]](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Li_Blueprint_Separable_Residual_Network_for_Efficient_Image_Super-Resolution_CVPRW_2022_paper.pdf)
-
-**Zheyuan Li**, Xiangyu Chen, Yu Qiao, Chao Dong et al  
-**"Research of Single Image Super Resolution Based on Attention Mecha."** (in Chinese)
-Journal of Integration Technology, 2022
-
-Selected Awards
-======
-The champion - NTIRE 2022 Challenges on Efficient Super-Resolution Challenge
+  <ul class="news-list">
+    {% for item in home.news.items %}
+    <li>
+      <time datetime="{{ item.datetime }}">{{ item.date }}</time>
+      <p>{{ item.text }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

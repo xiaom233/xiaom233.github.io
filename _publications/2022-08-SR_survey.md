@@ -5,7 +5,8 @@ permalink: /publication/2022-08-SR_survey
 excerpt: 'A survey on Single Image Super-Resolution'
 date: 2022-08-01
 venue: 'Journal of Integration Technology'
-paperurl: 'https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Li_Blueprint_Separable_Residual_Network_for_Efficient_Image_Super-Resolution_CVPRW_2022_paper.pdf'
+paperurl: 'https://jcjs.siat.ac.cn/jcjs/article/abstract/202205006?st=search'
+topic: 'Super-Resolution Survey'
 ---
 CNN-based methods have achieved notable performance in the research of single image super resolution domain. 
 To further improve the representation ability and performance of networks, 

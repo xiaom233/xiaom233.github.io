@@ -1,0 +1,37 @@
+{% include base_path %}
+{% assign publication = include.post %}
+
+<article class="publication-card">
+  <figure class="publication-card__media">
+    {% if publication.image %}
+      {% if publication.image contains "://" %}
+        {% assign publication_image = publication.image %}
+      {% else %}
+        {% assign publication_image = publication.image | prepend: base_path %}
+      {% endif %}
+      <img src="{{ publication_image }}" alt="{{ publication.image_alt | default: publication.title | escape }}" loading="lazy">
+    {% else %}
+      <span class="publication-card__media-placeholder">{{ publication.topic | default: "Research publication" }}</span>
+    {% endif %}
+  </figure>
+
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      <time class="publication-card__year" datetime="{{ publication.date | date_to_xmlschema }}">{{ publication.date | date: "%Y" }}</time>
+      {% if publication.topic %}<span>{{ publication.topic }}</span>{% endif %}
+      {% if publication.venue %}<span>{{ publication.venue }}</span>{% endif %}
+    </div>
+    <h3 class="publication-card__title">
+      <a href="{{ base_path }}{{ publication.url }}">{{ publication.title }}</a>
+    </h3>
+    {% if publication.excerpt %}
+      <p class="publication-card__excerpt">{{ publication.excerpt | markdownify | strip_html }}</p>
+    {% endif %}
+  </div>
+
+  <div class="publication-card__actions" aria-label="Links for {{ publication.title | escape }}">
+    {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
+    {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code</a>{% endif %}
+    {% if publication.projecturl %}<a href="{{ publication.projecturl }}">Project</a>{% endif %}
+  </div>
+</article>
