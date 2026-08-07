@@ -16,7 +16,7 @@ profile:
       url: "mailto:zheyuanli884886@gmail.com"
 
 hero:
-  eyebrow: "Research portfolio · 2026"
+  eyebrow: "Research Portfolio · 2026"
   name_primary: "Zheyuan"
   name_accent: "LI"
   deck: "Advancing image restoration, visual quality understanding, and controllable generative models."
@@ -49,7 +49,7 @@ research:
       title: "Image Restoration & Enhancement"
       description: "Designing general and efficient models that recover faithful, high-quality images from real-world degradation, from lightweight super-resolution to large-scale restoration."
     - index: "I.2"
-      title: "Vision-Language Quality Assessment"
+      title: "Vision-Language Image Quality Understanding"
       description: "Moving beyond scalar scores toward descriptive, comparative, and human-aligned reasoning about visual quality with multimodal language models."
     - index: "I.3"
       title: "Controllable Generative Models"
@@ -82,11 +82,8 @@ biography:
 
 news:
   kicker: "Chapter IV · Updates"
-  title: "News & recognition."
+  title: "News & Recognition."
   items:
-    - date: "2025"
-      datetime: "2025"
-      text: "New work on descriptive image quality assessment, causal interpretation, and diffusion model control appeared in TIP, TPAMI, and ICLR."
     - date: "Aug 2024"
       datetime: "2024-08-07"
       text: "Started Ph.D. study at the University of Macau."
